@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>COMPUTER NETWORK </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../cn.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <style>
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>COMPUTER NETWORK </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Course code:CSU603</p>
+                <li>
+                    <a href="#1Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Overview of OSI-model</a>
+                    <ul class="collapse list-unstyled" id="1Submenu">
+                        <li>
+                            <a href="Topology design.html">Topology design</a>
+                        </li>
+                        <li>
+                            <a href="Media Access Control Level.html">Media Access Control Level</a>
+                        </li>
+                        <li>
+                            <a href="Services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="Problems and protocols.html">Problems and protocols</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#2Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Practical local area network design and implementation</a>
+                    <ul class="collapse list-unstyled" id="2Submenu">
+                        <li>
+                            <a href="IEEE LAN Standards.html">IEEE LAN Standards</a>
+                        </li>
+                        <li>
+                            <a href="Logical Link Control protocols.html">Logical Link Control protocols</a>
+                        </li>
+                        <li>
+                            <a href="HDLC.html">HDLC</a>
+                        </li>
+                        <li>
+                            <a href="ALOHA & SLOTTED ALOHA.html">ALOHA & SLOTTED ALOHA</a>
+                        </li>
+                        <li>
+                            <a href="FDDI.html">FDDI</a>
+                        </li>
+                        <li>
+                            <a href="Client Server model and related software's.html">Client Server model and related software's</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#3Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Network Layer</a>
+                    <ul class="collapse list-unstyled" id="3Submenu">
+                        <li>
+                            <a href="Level services,problems and protocols.html">Level services,problems and protocols</a>
+                        </li>
+                        <li>
+                            <a href="WAN.html">WAN</a>
+                        </li>
+                        <li>
+                            <a href="MAN.html">MAN</a>
+                        </li>
+                        <li>
+                            <a href="Interconnection networks related software's.html">Interconnection networks related software's</a>
+                        </li>
+                        <li>
+                            <a href="TCP or IP.html">TCP or IP</a>
+                        </li>
+                        <li>
+                            <a href="Novel NetWare, Routers, Bridges and Gateways.html">Novel NetWare, Routers, Bridges and Gateways</a>
+                        </li>
+                        <li>
+                            <a href="X.25.html">X.25</a>
+                        </li>
+                        <li>
+                            <a href="Internet and related software‟s NETSCAPE and MOSAIC.html">Internet and related software‟s NETSCAPE and MOSAIC</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#4Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Transport layer</a>
+                    <ul class="collapse list-unstyled" id="4Submenu">
+                        <li>
+                            <a href="Services, problems and protocol.html">Services, problems and protocol</a>
+                        </li>
+                        <li>
+                            <a href="Brief functioning of upper layers.html">Brief functioning of upper layers</a>
+                        </li>
+                        <li>
+                            <a href="E-mail and other application.html">E-mail and other application</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="cn_syllabus.pdf">Syllabus</a>
+                </li>
+                
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="cn.pdf" class="download">Download Ref.Book</a>
+                </li>
+                <li>
+                    <a href="it.html" class="article">Back to selection</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Theory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=cn_paper.html>Papers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quiz-Time</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <h2 align="center">E-mail and other application</h2><br>
+            
+            <div class="line"></div>
+            <h2>SMTP (Email)</h2>
+            <ul class="points">
+            <li>SMTP stands for Simple Mail Transfer Protocol.</li>
+            <li>SMTP is a set of communication guidelines that allow software to transmit an electronic mail over the internet is called <strong>Simple Mail Transfer Protocol</strong>.</li>
+            <li>It is a program used for sending messages to other computer users based on e-mail addresses.</li>
+            <li>It provides a mail exchange between users on the same or different computers, and it also supports:
+            <ul class="points">
+            <li>It can send a single message to one or more recipients.</li>
+            <li>Sending message can include text, voice, video or graphics.</li>
+            <li>It can also send the messages on networks outside the internet.</li>
+            </ul>
+            </li>
+            <li>The main purpose of SMTP is used to set up communication rules between servers. The servers have a way of identifying themselves and announcing what kind of communication they are trying to perform. They also have a way of handling the errors such as incorrect email address. For example, if the recipient address is wrong, then receiving server reply with an error message of some kind.</li>
+            </ul>
+            <h4>Components of SMTP</h4>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-smtp.png" alt="Computer Network SMTP">
+            </p>
+            <ul class="points">
+            <li>First, we will break the SMTP client and SMTP server into two components such as user agent (UA) and mail transfer agent (MTA). The user agent (UA) prepares the message, creates the envelope and then puts the message in the envelope. The mail transfer agent (MTA) transfers this mail across the internet.</li>
+            </ul>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-smtp2.png" alt="Computer Network SMTP"></p>
+            <ul class="points">
+            <li>SMTP allows a more complex system by adding a relaying system. Instead of just having one MTA at sending side and one at receiving side, more MTAs can be added, acting either as a client or server to relay the email.</li>
+            </ul>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-smtp3.png" alt="Computer Network SMTP"></p>
+            <ul class="points">
+            <li>The relaying system without TCP/IP protocol can also be used to send the emails to users, and this is achieved by the use of the mail gateway. The mail gateway is a relay MTA that can be used to receive an email.</li>
+            </ul>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-smtp4.png" alt="Computer Network SMTP"></p>
+            <h3 class="h2">Working of SMTP</h3>
+            <ol class="points">
+            <li><strong>Composition of Mail:</strong> A user sends an e-mail by composing an electronic mail message using a Mail User Agent (MUA). Mail User Agent is a program which is used to send and receive mail. The message contains two parts: body and header. The body is the main part of the message while the header includes information such as the sender and recipient address. The header also includes descriptive information such as the subject of the message. In this case, the message body is like a letter and header is like an envelope that contains the recipient's address.</li>
+            <li><strong>Submission of Mail:</strong> After composing an email, the mail client then submits the completed e-mail to the SMTP server by using SMTP on TCP port 25.</li>
+            <li><strong>Delivery of Mail:</strong> E-mail addresses contain two parts: username of the recipient and domain name. For example, vivek@gmail.com, where "vivek" is the username of the recipient and "gmail.com" is the domain name.<br>
+            If the domain name of the recipient's email address is different from the sender's domain name, then MSA will send the mail to the Mail Transfer Agent (MTA). To relay the email, the MTA will find the target domain. It checks the MX record from Domain Name System to obtain the target domain. The MX record contains the domain name and IP address of the recipient's domain. Once the record is located, MTA connects to the exchange server to relay the message. </li>
+            <li><strong>Receipt and Processing of Mail:</strong> Once the incoming message is received, the exchange server delivers it to the incoming server (Mail Delivery Agent) which stores the e-mail where it waits for the user to retrieve it.</li>
+            <li><strong>Access and Retrieval of Mail:</strong> The stored email in MDA can be retrieved by using MUA (Mail User Agent). MUA can be accessed by using login and password.</li>
+            </ol>
+            <hr>
+            <h3>FTP</h3>
+            <ul class="points">
+            <li>FTP stands for File transfer protocol.</li>
+            <li>FTP is a standard internet protocol provided by TCP/IP used for transmitting the files from one host to another.</li>
+            <li>It is mainly used for transferring the web page files from their creator to the computer that acts as a server for other computers on the internet.</li>
+            <li>It is also used for downloading the files to computer from other servers.</li>
+            </ul>
+
+            <h4>Objectives of FTP</h4>
+            <ul class="points">
+            <li>It provides the sharing of files.</li>
+            <li>It is used to encourage the use of remote computers.</li>
+            <li>It transfers the data more reliably and efficiently.</li>
+            </ul>
+            <hr>
+            <h3>DNS</h3>
+            <p><h2></h2>
+            An application layer protocol defines how the application processes running on different systems, pass the messages to each other.</p>
+            <ul class="points">
+            <li>DNS stands for Domain Name System.</li>
+            <li>DNS is a directory service that provides a mapping between the name of a host on the network and its numerical address.</li>
+            <li>DNS is required for the functioning of the internet.</li>
+            <li>Each node in a tree has a domain name, and a full domain name is a sequence of symbols specified by dots.</li>
+            <li>DNS is a service that translates the domain name into IP addresses. This allows the users of networks to utilize user-friendly names when looking for other hosts instead of remembering the IP addresses.</li>
+            <li>For example, suppose the FTP site at EduSoft had an IP address of 132.147.165.50, most people would reach this site by specifying ftp.EduSoft.com. Therefore, the domain name is more reliable than IP address.</li>
+            </ul>
+            <p><h4></h4>
+            DNS is a TCP/IP protocol used on different platforms. The domain name space is divided into three different sections: generic domains, country domains, and inverse domain.</p>
+
+            <hr>
+            <h3>Telnet</h3>
+            <ul class="points">
+                <li>The main task of the internet is to provide services to users. For example, users want to run different application programs at the remote site and transfers a result to the local site. This requires a client-server program such as FTP, SMTP. But this would not allow us to create a specific program for each demand.</li>
+                <li>The better solution is to provide a general client-server program that lets the user access any application program on a remote computer. Therefore, a program that allows a user to log on to a remote computer. A popular client-server program Telnet is used to meet such demands. Telnet is an abbreviation for <strong>Terminal Network</strong>.</li>
+                <li>Telnet provides a connection to the remote computer in such a way that a local terminal appears to be at the remote side.</li>
+                </ul>
+                <h4>There are two types of login:</h4>
+                <ul class="points">
+<h4>Local Login</h4>
+<p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-telnet.png" alt="Computer Network Telnet">
+<ul class="points"></p>
+<li>When a user logs into a local computer, then it is known as local login.</li>
+<li>When the workstation running terminal emulator, the keystrokes entered by the user are accepted by the terminal driver. The terminal driver then passes these characters to the operating system which in turn, invokes the desired application program.</li>
+<li>However, the operating system has special meaning to special characters. For example, in UNIX some combination of characters have special meanings such as control character with "z" means suspend. Such situations do not create any problem as the terminal driver knows the meaning of such characters. But, it can cause the problems in remote login.</li>
+</ul>
+<h4>Remote login</h4>
+<p><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-telnet2.png" alt="Computer Network Telnet"></p>
+<ul class="points">
+<li>When the user wants to access an application program on a remote computer, then the user must perform remote login.</li>
+</ul>
+<h5>How remote login occurs</h5>
+<h5>At the local site</h5>
+<p><h5></h5>
+The user sends the keystrokes to the terminal driver, the characters are then sent to the TELNET client. The TELNET client which in turn, transforms the characters to a universal character set known as network virtual terminal characters and delivers them to the local TCP/IP stack</p>
+<h5>At the remote site</h5>
+<p><h6></h6>
+The commands in NVT forms are transmitted to the TCP/IP at the remote machine. Here, the characters are delivered to the operating system and then pass to the TELNET server. The TELNET server transforms the characters which can be understandable by a remote computer. However, the characters cannot be directly passed to the operating system as a remote operating system does not receive the characters from the TELNET server. Therefore it requires some piece of software that can accept the characters from the TELNET server. The operating system then passes these characters to the appropriate application program.</p>
+<h3>Network Virtual Terminal (NVT)</h3>
+<p><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-telnet3.png" alt="Computer Network Telnet"></p>
+<ul class="points">
+<li>The network virtual terminal is an interface that defines how data and commands are sent across the network.</li>
+<li>In today's world, systems are heterogeneous. For example, the operating system accepts a special combination of characters such as end-of-file token running a DOS operating system <em>ctrl+z</em> while the token running a UNIX operating system is <em>ctrl+d</em>.</li>
+<li>TELNET solves this issue by defining a universal interface known as network virtual interface.</li>
+<li>The TELNET client translates the characters that come from the local terminal into NVT form and then delivers them to the network. The Telnet server then translates the data from NVT form into a form which can be understandable by a remote computer.</li>
+</ul>
+
+
+</ul>
+<hr>
+    <h3>HTTP</h3>
+    <ul class="points">
+            <li>HTTP stands for <strong>HyperText Transfer Protocol</strong>.</li>
+            <li>It is a protocol used to access the data on the World Wide Web (www).</li>
+            <li>The HTTP protocol can be used to transfer the data in the form of plain text, hypertext, audio, video, and so on.</li>
+            <li>This protocol is known as HyperText Transfer Protocol because of its efficiency that allows us to use in a hypertext environment where there are rapid jumps from one document to another document.</li>
+            <li>HTTP is similar to the FTP as it also transfers the files from one host to another host. But, HTTP is simpler than FTP as HTTP uses only one connection, i.e., no control connection to transfer the files.</li>
+            <li>HTTP is used to carry the data in the form of MIME-like format.</li>
+            <li>HTTP is similar to SMTP as the data is transferred between client and server. The HTTP differs from the SMTP in the way the messages are sent from the client to the server and from server to the client. SMTP messages are stored and forwarded while HTTP messages are delivered immediately.</li>
+            </ul>
+
+            <h4>Features of HTTP:</h4>
+            <ul class="points">
+            <li><strong>Connectionless protocol:</strong> HTTP is a connectionless protocol. HTTP client initiates a request and waits for a response from the server. When the server receives the request, the server processes the request and sends back the response to the HTTP client after which the client disconnects the connection. The connection between client and server exist only during the current request and response time only.</li>
+            <li><strong>Media independent:</strong> HTTP protocol is a media independent as data can be sent as long as both the client and server know how to handle the data content. It is required for both the client and server to specify the content type in MIME-type header.</li>
+            <li><strong>Stateless:</strong> HTTP is a stateless protocol as both the client and server know each other only during the current request. Due to this nature of the protocol, both the client and server do not retain the information between various requests of the web pages.</li>
+            </ul>
+            <h4>HTTP Transactions</h4>
+            <p><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-http.png" alt="Computer Network HTTP"></p>
+            <br>
+            The above figure shows the HTTP transaction between client and server. The client initiates a transaction by sending a request message to the server. The server replies to the request message by sending a response message.<br>
+            <h4>Messages</h4>
+            <p><h6></h6>
+            HTTP messages are of two types: request and response. Both the message types follow the same message format.</p>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-http2.png" alt="Computer Network HTTP"></p>
+            <p><h6></h6><strong>Request Message:</strong> The request message is sent by the client that consists of a request line, headers, and sometimes a body.</p>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-http3.png" alt="Computer Network HTTP"></p>
+            <p><h6></h6><strong>Response Message:</strong> The response message is sent by the server to the client that consists of a status line, headers, and sometimes a body.</p>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-http4.png" alt="Computer Network HTTP"></p>
+            <h4>Uniform Resource Locator (URL)</h4>
+            <ul class="points">
+            <li>A client that wants to access the document in an internet needs an address and to facilitate the access of documents, the HTTP uses the concept of Uniform Resource Locator (URL).</li>
+            <li>The Uniform Resource Locator  (URL) is a standard way of specifying any kind of information on the internet.</li>
+            <li>The URL defines four parts: method, host computer, port, and path.</li>
+            </ul>
+            <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-http5.png" alt="Computer Network HTTP"></p>
+            <ul class="points">
+            <li><strong>Method:</strong> The method is the protocol used to retrieve the document from a server. For example, HTTP.</li>
+            <li><strong>Host:</strong> The host is the computer where the information is stored, and the computer is given an alias name. Web pages are mainly stored in the computers and the computers are given an alias name that begins with the characters "www". This field is not mandatory.</li>
+            <li><strong>Port:</strong> The URL can also contain the port number of the server, but it's an optional field. If the port number is included, then it must come between the host and path and it should be separated from the host by a colon.</li>
+            <li><strong>Path:</strong> Path is the pathname of the file where the information is stored. The path itself contain slashes that separate the directories from the subdirectories and files.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

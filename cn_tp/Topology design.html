@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>COMPUTER NETWORK </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../cn.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <style>
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>COMPUTER NETWORK </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Course code:CSU603</p>
+                <li>
+                    <a href="#1Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Overview of OSI-model</a>
+                    <ul class="collapse list-unstyled" id="1Submenu">
+                        <li>
+                            <a href="Topology design.html">Topology design</a>
+                        </li>
+                        <li>
+                            <a href="Media Access Control Level.html">Media Access Control Level</a>
+                        </li>
+                        <li>
+                            <a href="Services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="Problems and protocols.html">Problems and protocols</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#2Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Practical local area network design and implementation</a>
+                    <ul class="collapse list-unstyled" id="2Submenu">
+                        <li>
+                            <a href="IEEE LAN Standards.html">IEEE LAN Standards</a>
+                        </li>
+                        <li>
+                            <a href="Logical Link Control protocols.html">Logical Link Control protocols</a>
+                        </li>
+                        <li>
+                            <a href="HDLC.html">HDLC</a>
+                        </li>
+                        <li>
+                            <a href="ALOHA & SLOTTED ALOHA.html">ALOHA & SLOTTED ALOHA</a>
+                        </li>
+                        <li>
+                            <a href="FDDI.html">FDDI</a>
+                        </li>
+                        <li>
+                            <a href="Client Server model and related software's.html">Client Server model and related software's</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#3Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Network Layer</a>
+                    <ul class="collapse list-unstyled" id="3Submenu">
+                        <li>
+                            <a href="Level services,problems and protocols.html">Level services,problems and protocols</a>
+                        </li>
+                        <li>
+                            <a href="WAN.html">WAN</a>
+                        </li>
+                        <li>
+                            <a href="MAN.html">MAN</a>
+                        </li>
+                        <li>
+                            <a href="Interconnection networks related software's.html">Interconnection networks related software's</a>
+                        </li>
+                        <li>
+                            <a href="TCP or IP.html">TCP or IP</a>
+                        </li>
+                        <li>
+                            <a href="Novel NetWare, Routers, Bridges and Gateways.html">Novel NetWare, Routers, Bridges and Gateways</a>
+                        </li>
+                        <li>
+                            <a href="X.25.html">X.25</a>
+                        </li>
+                        <li>
+                            <a href="Internet and related software‟s NETSCAPE and MOSAIC.html">Internet and related software‟s NETSCAPE and MOSAIC</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#4Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Transport layer</a>
+                    <ul class="collapse list-unstyled" id="4Submenu">
+                        <li>
+                            <a href="Services, problems and protocol.html">Services, problems and protocol</a>
+                        </li>
+                        <li>
+                            <a href="Brief functioning of upper layers.html">Brief functioning of upper layers</a>
+                        </li>
+                        <li>
+                            <a href="E-mail and other application.html">E-mail and other application</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="cn_syllabus.pdf">Syllabus</a>
+                </li>
+                
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="cn.pdf" class="download">Download Ref.Book</a>
+                </li>
+                <li>
+                    <a href="it.html" class="article">Back to selection</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Theory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=cn_paper.html>Papers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quiz-Time</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <h2 align="center">Topology design</h2><br>
+             
+
+            <div class="line"></div>
+            <p><h2>Types of Network Topology</h2>
+                Network Topology is the schematic description of a network arrangement, connecting various nodes(sender and receiver) through lines of connection.
+                <br>
+                <hr>
+                <h3>BUS Topology</h3>Bus topology is a network type in which every computer and network device is connected to single cable. When it has exactly two endpoints, then it is called <b>Linear Bus topology</b>
+                <p align="center"><img data-cfsrc="images/Figure5.png" alt="Bus topology in computer networks" src="https://www.studytonight.com/computer-networks/images/Figure5.png"></p>
+                <h4>Features of Bus Topology</h4>
+                <ol class="content">
+                <li>It transmits data only in one direction.</li>
+                <li>Every device is connected to a single cable</li>
+                </ol>
+                <h4>Advantages of Bus Topology</h4>
+                <ol class="content">
+                <li>Cables fails then whole network fails.</li>
+                <li>If network traffic is heavy or nodes are more the performance of the network decreases. </li>
+                <li>Cable has a limited length. </li>
+                <li>It is slower than the ring topology.</li>
+                </ol>
+                <h4>Disadvantages of Bus Topology</h4>
+                <ol class="content">
+                <li>Cables fails then whole network fails.</li>
+                <li>If network traffic is heavy or nodes are more the performance of the network decreases. </li>
+                <li>Cable has a limited length. </li>
+                <li>It is slower than the ring topology.</li>
+                </ol>
+                <hr>
+                <h3>RING Topology</h3>
+                It is called ring topology because it forms a ring as each computer is connected to another computer, with the last one connected to the first. Exactly two neighbours for each device.
+                <p align="center">
+                    <img data-cfsrc="images/Figure6.png" alt="Ring topology in computer networks" src="https://www.studytonight.com/computer-networks/images/Figure6.png">
+                </p>
+                <h4>Features of Ring Topology</h4>
+                <ol class="content">
+                    <li>A number of repeaters are used for Ring topology with large number of nodes, because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.</li>
+                    <li>The transmission is unidirectional, but it can be made bidirectional by having 2 connections between each Network Node, it is called <b>Dual Ring Topology</b>.</li>
+                    <li>In Dual Ring Topology, two ring networks are formed, and data flow is in opposite direction in them. Also, if one ring fails, the second ring can act as a backup, to keep the network up.</li>
+                    <li>Data is transferred in a sequential manner that is bit by bit. Data transmitted, has to pass through each node of the network, till the destination node.</li>
+                </ol>
+                <h4>Advantages of Ring Topology</h4>
+                <ol class="content">
+                <li>Transmitting network is not affected by high traffic or by adding more nodes, as only the nodes having tokens can transmit data.</li>
+                <li>Cheap to install and expand</li>
+                </ol>
+                <h4>Disadvantages of Ring Topology</h4>
+                <ol class="content">
+                <li>Troubleshooting is difficult in ring topology.</li>
+                <li>Adding or deleting the computers disturbs the network activity.</li>
+                <li>Failure of one computer disturbs the whole network.</li>
+                </ol>
+                <hr>
+
+                <h3>STAR Topology</h3>
+                In this type of topology all the computers are connected to a single hub through a cable. This hub is the central node and all others nodes are connected to the central node. 
+                <p align="center">
+                    <img data-cfsrc="images/Figure7.png" alt="Star topology in computer networks" src="https://www.studytonight.com/computer-networks/images/Figure7.png">
+                </p>
+                <h4>Features of Star Topology</h4>
+                <ol class="content">
+                <li>Every node has its own dedicated connection to the hub.</li>
+                <li>Hub acts as a repeater for data flow.</li>
+                <li>Can be used with twisted pair, Optical Fibre or coaxial cable.</li>
+                </ol>
+                <h4>Advantages of Star Topology</h4>
+                <ol class="content">
+                <li>Fast performance with few nodes and low network traffic.</li>
+                <li>Hub can be upgraded easily.</li>
+                <li>Easy to troubleshoot.</li>
+                <li>Easy to setup and modify.</li>
+                <li>Only that node is affected which has failed, rest of the nodes can work smoothly.</li>
+                </ol>
+                <h4>Disadvantages of Star Topology</h4>
+                <ol class="content">
+                <li>Cost of installation is high.</li>
+                <li>Expensive to use.</li>
+                <li>If the hub fails then the whole network is stopped because all the nodes depend on the hub.</li>
+                <li>Performance is based on the hub that is it depends on its capacity</li>
+                </ol>
+
+                <hr>
+                <h3>MESH Topology</h3>
+                It is a point-to-point connection to other nodes or devices. All the network nodes are connected to each other. Mesh has <code>n(n-1)/2</code> physical channels to link <code>n</code> devices 
+                <br>There are two techniques to transmit data over the Mesh topology, they are :<br>
+                <ol class="content">
+                <li>Routing</li>
+                <li>Flooding</li>
+                </ol>
+                <h4>MESH Topology: Routing</h4>
+                In routing, the nodes have a routing logic, as per the network requirements. Like routing logic to direct the data to reach the destination using the shortest distance. Or, routing logic which has information about the broken links, and it avoids those node etc. We can even have routing logic, to re-configure the failed nodes.
+                <h4>MESH Topology: Flooding</h4>
+                In flooding, the same data is transmitted to all the network nodes, hence no routing logic is required. The network is robust, and the its very unlikely to lose the data. But it leads to unwanted load over the network.
+                <p align="center">
+                    <img data-cfsrc="images/Figure8.png" alt="Mesh topology in computer networks" src="https://www.studytonight.com/computer-networks/images/Figure8.png">
+                </p>
+                <h4>Types of Mesh Topology</h4>
+                <ol class="content">
+                <li><b>Partial Mesh Topology : </b>In this topology some of the systems are connected in the same fashion as mesh topology but some devices are only connected to two or three devices.</li>
+                <li><b>Full Mesh Topology : </b>Each and every nodes or devices are connected to each other.</li>
+                </ol>
+                <h4>Features of Mesh Topology</h4>
+                <ol class="content">
+                <li>Fully connected.</li>
+                <li>Robust.</li>
+                <li>Not flexible.</li>
+                </ol>
+                <h4>Advantages of Mesh Topology</h4>
+                <ol class="content">
+                <li>Each connection can carry its own data load.</li>
+                <li>It is robust.</li>
+                <li>Fault is diagnosed easily.</li>
+                <li>Provides security and privacy.</li>
+                </ol>
+                <h4>Disadvantages of Mesh Topology</h4>
+                <ol class="content">
+                <li>Installation and configuration is difficult.</li>
+                <li>Cabling cost is more.</li>
+                <li>Bulk wiring is required.</li>
+                </ol>
+                <hr>
+                <h3>HYBRID Topology</h3>
+                It is two different types of topologies which is a mixture of two or more topologies. For example if in an office in one department ring topology is used and in another star topology is used, connecting these topologies will result in Hybrid Topology (ring topology and star topology).
+                <p align="center">
+                    <img data-cfsrc="images/Figure10.png" alt="Hybrid topology in computer networks" src="https://www.studytonight.com/computer-networks/images/Figure10.png">
+                    
+                </p>
+                <h4>Features of Hybrid Topology</h4>
+                <ol class="content">
+                <li>It is a combination of two or topologies</li>
+                <li>Inherits the advantages and disadvantages of the topologies included</li>
+                </ol>
+                <h4>Advantages of Hybrid Topology</h4>
+                <ol class="content">
+                <li>Reliable as Error detecting and trouble shooting is easy.</li>
+                <li>Effective.</li>
+                <li>Scalable as size can be increased easily.</li>
+                <li>Flexible.</li>
+                </ol>
+                <h4>Disadvantages of Hybrid Topology</h4>
+                <ol class="content">
+                <li>Complex in design.</li>
+                <li>Costly.</li>
+                </ol>
+
+
+
+
+
+
+
+            </p>
+
+
+            
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>COMPUTER NETWORK </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../cn.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+<style>
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>COMPUTER NETWORK </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Course code:CSU603</p>
+                <li>
+                    <a href="#1Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Overview of OSI-model</a>
+                    <ul class="collapse list-unstyled" id="1Submenu">
+                        <li>
+                            <a href="Topology design.html">Topology design</a>
+                        </li>
+                        <li>
+                            <a href="Media Access Control Level.html">Media Access Control Level</a>
+                        </li>
+                        <li>
+                            <a href="Services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="Problems and protocols.html">Problems and protocols</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#2Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Practical local area network design and implementation</a>
+                    <ul class="collapse list-unstyled" id="2Submenu">
+                        <li>
+                            <a href="IEEE LAN Standards.html">IEEE LAN Standards</a>
+                        </li>
+                        <li>
+                            <a href="Logical Link Control protocols.html">Logical Link Control protocols</a>
+                        </li>
+                        <li>
+                            <a href="HDLC.html">HDLC</a>
+                        </li>
+                        <li>
+                            <a href="ALOHA & SLOTTED ALOHA.html">ALOHA & SLOTTED ALOHA</a>
+                        </li>
+                        <li>
+                            <a href="FDDI.html">FDDI</a>
+                        </li>
+                        <li>
+                            <a href="Client Server model and related software's.html">Client Server model and related software's</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#3Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Network Layer</a>
+                    <ul class="collapse list-unstyled" id="3Submenu">
+                        <li>
+                            <a href="Level services,problems and protocols.html">Level services,problems and protocols</a>
+                        </li>
+                        <li>
+                            <a href="WAN.html">WAN</a>
+                        </li>
+                        <li>
+                            <a href="MAN.html">MAN</a>
+                        </li>
+                        <li>
+                            <a href="Interconnection networks related software's.html">Interconnection networks related software's</a>
+                        </li>
+                        <li>
+                            <a href="TCP or IP.html">TCP or IP</a>
+                        </li>
+                        <li>
+                            <a href="Novel NetWare, Routers, Bridges and Gateways.html">Novel NetWare, Routers, Bridges and Gateways</a>
+                        </li>
+                        <li>
+                            <a href="X.25.html">X.25</a>
+                        </li>
+                        <li>
+                            <a href="Internet and related software‟s NETSCAPE and MOSAIC.html">Internet and related software‟s NETSCAPE and MOSAIC</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#4Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Transport layer</a>
+                    <ul class="collapse list-unstyled" id="4Submenu">
+                        <li>
+                            <a href="Services, problems and protocol.html">Services, problems and protocol</a>
+                        </li>
+                        <li>
+                            <a href="Brief functioning of upper layers.html">Brief functioning of upper layers</a>
+                        </li>
+                        <li>
+                            <a href="E-mail and other application.html">E-mail and other application</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="cn_syllabus.pdf">Syllabus</a>
+                </li>
+                
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="cn.pdf" class="download">Download Ref.Book</a>
+                </li>
+                <li>
+                    <a href="it.html" class="article">Back to selection</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Theory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=cn_paper.html>Papers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quiz-Time</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <h1 align="center">Level services,problems and protocols</h1><br>
+            
+             <div class="line"></div>
+             <h2>Network Layer</h2>
+             <ul class="points">
+<li>The Network Layer is the third layer of the OSI model.</li>
+<li>It handles the service requests from the transport layer and further forwards the service request to the data link layer.</li>
+<li>The network layer translates the logical addresses into physical addresses</li>
+<li>It determines the route from the source to the destination and also manages the traffic problems such as switching, routing and controls the congestion of data packets.</li>
+<li>The main role of the network layer is to move the packets from sending host to the receiving host.</li>
+</ul>
+
+             <h3>Services Provided by the Network Layer</h3>
+<br>
+<ul class="points">
+<li><strong>Guaranteed delivery:</strong> This layer provides the service which guarantees that the packet will arrive at its destination.</li>
+<li><strong>Guaranteed delivery with bounded delay:</strong> This service guarantees that the packet will be delivered within a specified host-to-host delay bound.</li>
+<li><strong>In-Order packets:</strong> This service ensures that the packet arrives at the destination in the order in which they are sent.</li>
+<li><strong>Guaranteed max jitter:</strong> This service ensures that the amount of time taken between two successive transmissions at the sender is equal to the time between their receipt at the destination.</li>
+<li><strong>Security services:</strong> The network layer provides security by using a session key between the source and destination host. The network layer in the source host encrypts the payloads of datagrams being sent to the destination host. The network layer in the destination host would then decrypt the payload. In such a way, the network layer maintains the data integrity and source authentication services.</li>
+</ul>
+
+            <p>
+                <h3>Network Layer Protocols</h3>
+                <br>
+
+                <h3>ARP</h3>
+                <ul class="points">
+                    <li>ARP stands for Address Resolution Protocol. </li>
+                    <li>It is used to associate an IP address with the MAC address. </li>
+                    <li>Each device on the network is recognized by the MAC address imprinted on the NIC. Therefore, we can say that devices need the MAC address for communication on a local area network. MAC address can be changed easily. For example, if the NIC on a particular machine fails, the MAC address changes but IP address does not change. ARP is used to find the MAC address of the node when an internet address is known.</li>
+                </ul>
+                <br>
+                <h4>How ARP works?</h4>
+                If the host wants to know the physical address of another host on its network, then it sends an ARP query packet that includes the IP address and broadcast it over the network. Every host on the network receives and processes the ARP packet, but only the intended recipient recognizes the IP address and sends back the physical address. The host holding the datagram adds the physical address to the cache memory and to the datagram header, then sends back to the sender.
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols.png" alt="Network Layer Protocols"></p>
+                <br>
+                <h4>Steps taken by ARP protocol</h4>
+                If a device wants to communicate with another device, the following steps are taken by the device:
+                <ul class="points">
+                    <li>The device will first look at its internet list, called the ARP cache to check whether an IP address contains a matching MAC address or not. It will check the ARP cache in command prompt by using a command <strong>arp-a</strong></li>
+
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols2.jpg" alt="Network Layer Protocols"></p>
+                <li>If ARP cache is empty, then device broadcast the message to the entire network asking each device for a matching MAC address.</li>
+                <li>The device that has the matching IP address will then respond back to the sender with its MAC address</li>
+                <li>Once the MAC address is received by the device, then the communication can take place between two devices.</li>
+                <li>If the device receives the MAC address, then the MAC address gets stored in the ARP cache. We can check the ARP cache in command prompt by using a command arp -a.</li>
+                </ul>
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols3.png" alt="Network Layer Protocols"></p>
+                In the above screenshot, we observe the association of IP address to the MAC address.<br>
+                <h4>There are two types of ARP entries:</h4>
+                <ul class="points">
+                    <li><strong>Dynamic entry:</strong> It is an entry which is created automatically when the sender broadcast its message to the entire network. Dynamic entries are not permanent, and they are removed periodically.</li>
+                    <li><strong>Static entry:</strong> It is an entry where someone manually enters the IP to MAC address association by using the ARP command utility.</li>
+                </ul>
+                <br>
+                <hr>
+                <h3>RARP</h3>
+                <ul class="points">
+                    <li>RARP stands for <strong>Reverse Address Resolution Protocol</strong></li>
+                    <li>If the host wants to know its IP address, then it broadcast the RARP query packet that contains its physical address to the entire network. A RARP server on the network recognizes the RARP packet and responds back with the host IP address.</li>
+                    <li>The protocol which is used to obtain the IP address from a server is known as <strong>Reverse Address Resolution Protocol</strong></li>
+                    <li>The message format of the RARP protocol is similar to the ARP protocol. </li>
+                    <li>Like ARP frame, RARP frame is sent from one machine to another encapsulated in the data portion of a frame.</li>
+                    
+                </ul>
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols4.png" alt="Network Layer Protocols"></p>
+                <hr>
+
+
+
+
+
+
+                <h3>ICMP</h3>
+
+                <ul class="points">
+                    <li>ICMP stands for Internet Control Message Protocol.</li>
+                    <li>The ICMP is a network layer protocol used by hosts and routers to send the notifications of IP datagram problems back to the sender.</li>
+                    <li>ICMP uses echo test/reply to check whether the destination is reachable and responding. </li>
+                    <li>ICMP handles both control and error messages, but its main function is to report the error but not to correct them.</li>
+                    <li>An IP datagram contains the addresses of both source and destination, but it does not know the address of the previous router through which it has been passed. Due to this reason, ICMP can only send the messages to the source, but not to the immediate routers. </li>
+                    <li>ICMP protocol communicates the error messages to the sender. ICMP messages cause the errors to be returned back to the user processes.</li>
+                    <li>ICMP messages are transmitted within IP datagram.</li>
+                    
+                </ul>
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols5.png" alt="Network Layer Protocols"></p>
+
+                <h4>The Format of an ICMP message</h4>
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols6.png" alt="Network Layer Protocols"></p>
+                <ul class="points">
+                    <li>The first field specifies the type of the message.</li>
+                    <li>The second field specifies the reason for a particular message type.</li>
+                    <li>The checksum field covers the entire ICMP message.</li>
+                </ul>
+                <h4>Error Reporting</h4>
+                ICMP protocol reports the error messages to the sender.
+                <strong>Five types of errors are handled by the ICMP protocol:</strong>
+                <br>
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols7.png" alt="Network Layer Protocols"></p>
+
+                <ul class="points">
+                    <li><strong>Destination unreachable:</strong> The message of "Destination Unreachable" is sent from receiver to the sender when destination cannot be reached, or packet is discarded when the destination is not reachable.</li>
+                    <li><strong>Source Quench:</strong> The purpose of the source quench message is congestion control. The message sent from the congested router to the source host to reduce the transmission rate. ICMP will take the IP of the discarded packet and then add the source quench message to the IP datagram to inform the source host to reduce its transmission rate. The source host will reduce the transmission rate so that the router will be free from congestion.</li>
+                    <li><strong>Time Exceeded:</strong> Time Exceeded is also known as "Time-To-Live". It is a parameter that defines how long a packet should live before it would be discarded.</li>
+                    <li><strong>Parameter problems:</strong> When a router or host discovers any missing value in the IP datagram, the router discards the datagram, and the "parameter problem" message is sent back to the source host.  </li>
+                    <li><strong>Redirection:</strong> Redirection message is generated when host consists of a small routing table. When the host consists of a limited number of entries due to which it sends the datagram to a wrong router. The router that receives a datagram will forward a datagram to a correct router and also sends the "Redirection message" to the host to update its routing table.</li>
+                    
+                </ul>
+                <hr>
+                <h3>IGMP</h3>
+                <ul class="points">
+                    <li>IGMP stands for <strong>Internet Group Message Protocol</strong></li>
+                    <li>The IP protocol supports two types of communication:</li>
+                    <ul type="square">
+                        <li><strong>Unicasting:</strong> It is a communication between one sender and one receiver. Therefore, we can say that it is one-to-one communication.</li>
+                    <li><strong>Multicasting:</strong> Sometimes the sender wants to send the same message to a large number of receivers simultaneously. This process is known as multicasting which has one-to-many communication.</li>
+                        
+                    </ul>
+                    <li>The IGMP protocol is used by the hosts and router to support multicasting.</li>
+                    <li>The IGMP protocol is used by the hosts and router to identify the hosts in a LAN that are the members of a group.</li>
+                   <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols8.png" alt="Network Layer Protocols"></p>
+                    <li>IGMP is a part of the IP layer, and IGMP has a fixed-size message.</li>
+                    <li>The IGMP message is encapsulated within an IP datagram.</li>
+                </ul>
+               <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols9.png" alt="Network Layer Protocols"></p>
+                <h4>The Format of IGMP message</h4>
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols10.png" alt="Network Layer Protocols"></p>
+                <br>
+                <strong>Where</strong><br>
+                <strong>Type:</strong> It determines the type of IGMP message. There are three types of IGMP message: Membership Query, Membership Report and Leave Report.<br>
+
+                <strong>Maximum Response Time:</strong> This field is used only by the Membership Query message. It determines the maximum time the host can send the Membership Report message in response to the Membership Query message.<br>
+                <strong>Checksum:</strong> It determines the entire payload of the IP datagram in which IGMP message is encapsulated.
+                <br>
+                <strong>Group Address:</strong> The behavior of this field depends on the type of the message sent.
+                <br>
+                <ul class="points">
+                    <li><strong>For Membership Query</strong>, the group address is set to zero for General Query and set to multicast group address for a specific query.</li>
+                    <li><strong>For Membership Report</strong>, the group address is set to the multicast group address.</li>
+                    <li><strong>For Leave Group</strong>, it is set to the multicast group address.</li>
+                </ul>
+                
+                <p align="center"><img src="https://static.javatpoint.com/tutorial/computer-network/images/network-layer-protocols11.png" alt="Network Layer Protocols"></p>
+
+
+
+            </p>
+            
+
+            
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

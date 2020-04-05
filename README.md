@@ -1,1 +1,1 @@
-Read more here: https://lunarblade99.github.io/GCOEA/
+Read more here: https://shubhwar.github.io/Minor-Pro/
